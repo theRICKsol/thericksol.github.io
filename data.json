@@ -144,60 +144,12 @@
     "age": 37
   },
   {
-    "address": "HB7bkQTg15VA48yKJiRfcDei7bTsjZEm2pMtYv25zPGz",
-    "twitter": "Ameliaayay",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
-  },
-  {
-    "address": "95kvXYkb9hc3WEEGywS1hngfTiC7gDa29L9iHpwrMHPB",
-    "twitter": "alicehuly",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
-  },
-  {
-    "address": "AmN4uHqDeDaJDcjQwDAQ86WPVcpnanwHSjbK2asgyenT",
-    "twitter": "aranilaya",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
-  },
-  {
     "address": "4vfg5VRmhdiQkodLj5MZEeqdqerM2xRfrtoXh8BCp1bq",
     "twitter": "Anakancupang01",
     "balance": "1,900",
     "premium": false,
     "early": true,
     "age": 9
-  },
-  {
-    "address": "9yMNJWkFCC7FVA2RAtogyNmQHuSPxfBzvGb11vZuf821",
-    "twitter": "ensilopa",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
-  },
-  {
-    "address": "Ebxi94R72h9qL2RaqNUVr8JRJwFNoXmBgaSrNSGwQr6C",
-    "twitter": "helenafany",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
-  },
-  {
-    "address": "AwQdQtrwLN1mX8gZcdime73z9Y1zWUFMbpvcR4cSb6f3",
-    "twitter": "ainsowa",
-    "balance": "1,400",
-    "premium": false,
-    "early": true,
-    "age": 4
   },
   {
     "address": "CxPy4vPkmw7uxfEKk5b9fxFyFEG4XzAajn2acRCKsBUi",
@@ -208,19 +160,83 @@
     "age": 6
   },
   {
-    "address": "eHRDzzQPFJ7mDg1iC8XtxbGauv3JG467tqq7urgqRUA",
-    "twitter": "hazeleonu",
-    "balance": "1,600",
+    "address": "CngUtP3tb2JUC9ic9VAAUkf1HH6jJbGk3FvBXdUsCPmY",
+    "twitter": "KingMemesAsf",
+    "balance": "2,400",
     "premium": false,
     "early": true,
-    "age": 6
+    "age": 14
   },
   {
-    "address": "GL5PVhkZt9FSs9ZjxiS1jpJeXUeQHae2VcoEx42FhAdf",
-    "twitter": "hallarezo",
-    "balance": "1,600",
+    "address": "CkcwC9G6jefZFSR6ByrT3GF8ErQ21hDRjPbDQzRfdatf",
+    "twitter": "vixingvux",
+    "balance": "11,000",
+    "premium": true,
+    "early": true,
+    "age": 30
+  },
+  {
+    "address": "7R8w6keReNcU6P6UgXQwRxrneU1zZdGpNrunoqP7UdMG",
+    "twitter": "TheArenaevrdy",
+    "balance": "2,300",
     "premium": false,
     "early": true,
-    "age": 6
+    "age": 13
+  },
+  {
+    "address": "GoZbxPqURwTZSBeYP8roh6UCJ7vW5PLsEoi1tHiU9993",
+    "twitter": "PigsOnAvax",
+    "balance": "2,000",
+    "premium": false,
+    "early": true,
+    "age": 10
+  },
+  {
+    "address": "8UL14ZSqYwE5tWu3VS1oWtdqtsefMpV4xGBSvWDpP1GN",
+    "twitter": "ArenaBeachAI",
+    "balance": "2,400",
+    "premium": false,
+    "early": true,
+    "age": 14
+  },
+  {
+    "address": "DzvECjTTak1xhzc1bn4UJ7QTtyFHxa81ZAP2qhRtFP6g",
+    "twitter": "honkaiino",
+    "balance": "5,900",
+    "premium": false,
+    "early": true,
+    "age": 29
+  },
+  {
+    "address": "8XTDvA8sG7NGZpuZKfkasBCKMQsrj8KptCiBb8fjExNF",
+    "twitter": "pengenwinterus4",
+    "balance": "5,900",
+    "premium": false,
+    "early": true,
+    "age": 29
+  },
+  {
+    "address": "FHdVrj4kf1Hq5Qy57Beyf8QYQoFCMmBXmDsewNVFHhxE",
+    "twitter": "0xeth_burgers",
+    "balance": "2,400",
+    "premium": false,
+    "early": true,
+    "age": 14
+  },
+  {
+    "address": "2DaD93Q2L4UUwZzGCfL5TpYNmrBk3qy3BcRrMNZFcJ2p",
+    "twitter": "ZakiFernan11201",
+    "balance": "1,900",
+    "premium": false,
+    "early": true,
+    "age": 9
+  },
+  {
+    "address": "9Sff1eFiY4So4iMU3kEcDxqSYkZTLFtyvWBkhP6o381w",
+    "twitter": "Pemburucrypto94",
+    "balance": "13,200",
+    "premium": true,
+    "early": true,
+    "age": 42
   }
 ]
