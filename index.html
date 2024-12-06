@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick Airdrop</title>
+  <link rel="icon" href="./logo.png" type="image/png">
+  <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, p {
+      text-align: center;
+      color: #333;
+      margin: 10px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.1em;
+      color: #555;
+      max-width: 600px;
+    }
+    .logo {
+      width: 256px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 300px;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    .balance, .twitter {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #007bff;
+      text-align: center;
+    }
+    .twitter {
+      color: #1da1f2;
+      font-size: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        body {
+            padding: 0 2rem;
+        }
+      h1 {
+        font-size: 1.5em;  
+      }
+
+      p {
+        font-size: 1em;  
+        max-width: 90%;  
+      }
+
+      input {
+        font-size: 14px; 
+        width: 100%;  
+        padding: 12px;
+      }
+
+      button {
+        font-size: 14px;  
+        padding: 12px 20px;
+        width: 100%;  
+      }
+
+      .logo {
+        width: 128px;  
+      }
+
+      .balance, .twitter {
+        font-size: 16px; 
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 1.2em;  /
+      }
+
+      p {
+        font-size: 0.9em; 
+      }
+
+      .balance, .twitter {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" class="logo">
+
+  <h1>Check Airdrop Eligibility</h1>
+  <p>Simply provide your wallet address, and we will display the balance and any associated airdrop details for you.</p>
+
+  <input type="text" id="walletAddress" placeholder="address">
+  <button onclick="checkBalance()">Get Amount</button>
+
+  <div class="balance" id="balance"></div>
+  <div class="twitter" id="twitter"></div>
+
+  <script>
+    function checkBalance() {
+      const address = document.getElementById('walletAddress').value.trim();
+      if (!address) {
+        alert("Please enter a wallet address.");
+        return;
+      }
+
+      fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+          const wallet = data.find(item => item.address.toLowerCase() === address.toLowerCase());
+          
+          if (wallet) {
+            document.getElementById('balance').innerHTML = `${wallet.balance} RICK & ${wallet.age} MOON`;
+            document.getElementById('twitter').innerHTML = wallet.twitter;
+          } else {
+            document.getElementById('balance').innerHTML = 'Wallet Address Not Found !';
+          }
+        })
+        .catch(error => {
+          console.error('Error loading data:', error);
+          document.getElementById('balance').innerHTML = 'Failed to load wallet data.';
+        });
+    }
+  </script>
+
+</body>
+</html>
